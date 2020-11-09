@@ -7,7 +7,7 @@ npm i jswang-vue-template
 
 ### 使用
 ```vue
-import Case from '../packages/index'
+import Case from 'jswang-vue-template'
 Vue.config.productionTip = false
 Vue.use(Case)
 ```
