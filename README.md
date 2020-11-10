@@ -9,7 +9,7 @@
     vue ui
 ```
 如图
-![Image](./examples/assets/WeChat7fd6b02a48bf410749e2702734343d20.png)
+![Image](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d187a2ef43e5435da655181e1594a344~tplv-k3u1fbpfcp-watermark.image)
 
 创建项目时选择默认
 
@@ -21,7 +21,7 @@
  创建 `vue.config.js`后面配置修改
  
  如图：
-![Image](./examples/assets/WeChat0ea19edf47707df7fef19be502077fa9.png)
+![Image](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c2c944d985f446b9b6a11214eb498fc1~tplv-k3u1fbpfcp-watermark.image)
 
 ## 第三步 添加配置
 `vue-cli`的默认为`entry: 'examples/main.js'`所以文件修改后我们要把 入口路径 重新修改
@@ -54,7 +54,7 @@ module.exports = {
 每个组件都应该归类于单独的目录下，包含其组件源码目录 src，和 index.js 便于外部引用
 
 这里以case为例
-![Image](./examples/assets/WeChat94b508889ab366cb14e8370d37267191.png)
+![Image](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f6c3b3774677465d8cfddce17389f568~tplv-k3u1fbpfcp-watermark.image)
 
 如图 `packages/case/src/main.vue`为组件的开发文件
 需要注意的是，组件必须声明 name，这个 name 就是组件的标签
@@ -172,7 +172,7 @@ private：是否私有，需要修改为 false 才能发布到 npm；
 main: 入口文件，应指向编译后的包文件；
 
 如图打包后我们得到了这个文件
-![Image](./examples/assets/WeChat57d8af03a1c6431432adba054bc524eb.png)
+![Image](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5c81fedbe5bc4c1091b3f15e634816a8~tplv-k3u1fbpfcp-watermark.image)
 把入口文件，应指向编译后的包文件；
 ```json
 "main": "lib/tag-textarea.umd.min.js",
