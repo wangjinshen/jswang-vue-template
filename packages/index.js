@@ -1,4 +1,3 @@
-// packages / index.js
 
 // 导入单个组件
 import Case from './case/index.js'

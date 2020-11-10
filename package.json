@@ -42,11 +42,18 @@
   ],
   "description": "ad css",
   "main": "lib/tag-textarea.umd.min.js",
-  "style": "lib/tag-textarea.css",
   "directories": {
     "example": "examples",
     "lib": "lib"
   },
   "author": "wangjinshen",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangjinshen/jswang-vue-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wangjinshen/jswang-vue-template/issues"
+  },
+  "homepage": "https://github.com/wangjinshen/jswang-vue-template#readme"
 }
